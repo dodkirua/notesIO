@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+#display {
+    padding : 0.5rem;
+    background-color: darkgray;
+}
+
+#display, #textArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#title, #display, #textArea {
+    margin: 1rem;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 5rem;
+    color : greenyellow;
+}
+
+label {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: cyan;
+    margin: 1rem;
+}
+
+textarea {
+    padding: 2rem;
+    background-color: khaki;
+    border-radius: 5%;
+}
